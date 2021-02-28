@@ -1,0 +1,29 @@
+npm init -y   //default package
+
+*************INSTALL NEW PACKAGE**********************
+// Store all public package is node_modules
+
+npm i lodash -save 
+
+npm i uuid --save-dev  // devDependencies  only required during development 
+
+// Execute multiple files
+npm run execute
+
+npm run watch 
+
+
+
+//install package in global storage
+npm install lodash -g
+
+//get location of installed global package
+npm root lodash 
+
+//unistall global package
+npm unistall lodash
+
+
+
+************************************NPX********************************************
+
